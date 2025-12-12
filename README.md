@@ -17,7 +17,8 @@ Each day has its own directory with the puzzle input and solution files.
 └── day02
     ├── example.txt
     ├── input.txt
-    └── solution.py
+    ├── part1.py
+│   └── part2.py
 ```
 
 ---
@@ -58,7 +59,7 @@ For each puzzle day:
 1. Create a folder: `dayNN/`
 2. Add puzzle example `example.txt`
 3. Add your personal `input.txt`
-4. Write Python solutions (`part1.py`, `part2.py`, `solution.py`)
+4. Write Python solutions (`part1.py`, `part2.py`)
 5. Commit & push
 
 ---
