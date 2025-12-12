@@ -7,14 +7,16 @@ Each day has its own directory with the puzzle input and solution files.
 
 ## Repository Structure
 
-day01/
-  input.txt
-  part1.py
-  part2.py
-day02/
-  input.txt
-  solution.py
-...
+```
+.
+├── day01
+│   ├── input.txt
+│   ├── part1.py
+│   └── part2.py
+├── day02
+    ├── input.txt
+    └── solution.py
+```
 
 ---
 
