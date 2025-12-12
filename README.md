@@ -56,10 +56,10 @@ python day01/part1.py input.txt
 
 For each puzzle day:
 
-1. Create a folder: `dayNN/`
-2. Add puzzle example `example.txt`
-3. Add your personal `input.txt`
-4. Write Python solutions (`part1.py`, `part2.py`)
+1. Create the day folder structure: `./start_day.sh N`
+2. Add puzzle example into `example.txt`
+3. Add your personal data into `input.txt`
+4. Write Python solutions: `part1.py`, `part2.py`
 5. Commit & push
 
 ---
