@@ -26,8 +26,8 @@ def parse_db(lines):
             continue
 
         if not next_section:
-            range = line.split('-')
-            ranges.append(Range(int(range[0]), int(range[1])))
+            fresh_range = line.split('-')
+            ranges.append(Range(int(fresh_range[0]), int(fresh_range[1])))
         else:
             ingredient_ids.append(int(line))
 
@@ -38,8 +38,8 @@ def filter_fresh_ingredient(db):
             if is_fresh(db.ranges, ingredient_id)]
 
 def is_fresh(ranges, ingredient_id):
-    for range in ranges:
-        if ingredient_id >= range.start and ingredient_id <= range.end:
+    for fresh_range in ranges:
+        if ingredient_id >= fresh_range.start and ingredient_id <= fresh_range.end:
             return True
     return False
         
