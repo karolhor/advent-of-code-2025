@@ -14,7 +14,7 @@ Each day has its own directory with the puzzle input and solution files.
 │   ├── input.txt
 │   ├── part1.py
 │   └── part2.py
-├── day02
+└── day02
     ├── example.txt
     ├── input.txt
     └── solution.py
